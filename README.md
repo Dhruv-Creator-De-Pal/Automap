@@ -97,13 +97,7 @@ $ sudo python main.py
 - [ ] Slack/Discord notifications
 - [ ] Database integration
 
----
 
-## 📝 License
-
-MIT License — See LICENSE file
-
----
 
 ## ⭐ Show Your Support
 
