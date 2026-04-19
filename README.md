@@ -1,5 +1,5 @@
 # ⚡ Automap — AI-Powered Nmap Analysis
-
+<img width="500" height="500" alt="Untitled" src="https://github.com/user-attachments/assets/46455df4-ec2e-4972-bb7a-b82c841df5ce" />
 Turn raw Nmap scans into **clear, structured intelligence** using AI.
 
 ---
@@ -46,7 +46,7 @@ Enter:
 ---
 
 ## 📸 Demo
-<img width="500" height="500" alt="Untitled" src="https://github.com/user-attachments/assets/46455df4-ec2e-4972-bb7a-b82c841df5ce" />
+
 
 
 
