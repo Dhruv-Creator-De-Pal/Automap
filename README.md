@@ -133,6 +133,7 @@ If Automap helped you, consider:
 
 
 ```
+```
    _         _                         
   / \   _   _| |_ ___  _ __ ___   __ _ _ __
  / _ \ | | | | __/ _ \| '_ ` _ \ / _` | '_ \
@@ -141,6 +142,7 @@ If Automap helped you, consider:
                                        |_|
 
 Your Network. Secured. Analyzed. Reported.
+
 ```
 
 
