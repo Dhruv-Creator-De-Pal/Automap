@@ -19,18 +19,6 @@ Automap is a **next-generation network security scanner** that combines the powe
 
 ---
 
-## 📊 Features at a Glance
-
-| Feature | Description |
-|---------|------------|
-| 🔎 **Network Scanning** | Aggressive nmap scans with -A -T4 flags |
-| 🤖 **AI Analysis** | Ollama integration for real-time security insights |
-| 📄 **Smart Reports** | Beautiful PDFs with visual hierarchy & symbols |
-| ⚠️ **Risk Highlighting** | Auto-detects SSH, HTTP, multi-port devices |
-| 🖥️ **Device Inventory** | Complete host enumeration with details |
-| 🎯 **Security Summary** | Top ports, exposures, and recommendations |
-
----
 
 ## 💻 Installation
 
@@ -76,18 +64,6 @@ $ sudo python main.py
 - Always run with `sudo` for root-level network access
 - Ollama should be on a trusted network
 - Report files contain sensitive network data — keep secure
-- Consider running in isolated environment for production
-
----
-
-## 🐛 Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| `nmap: command not found` | Install: `sudo apt install nmap` |
-| `Ollama connection failed` | Check Ollama is running: `curl http://ollama:9090/api/tags` |
-| `Permission denied` | Run with `sudo`: `sudo python main.py` |
-| `Old cached reports` | Reports auto-cleanup runs weekly |
 
 ---
 
