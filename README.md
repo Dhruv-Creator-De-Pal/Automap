@@ -1,126 +1,81 @@
-# 🔍 Automap - AI-Powered Network Security Scanner
+# ⚡ Automap — AI-Powered Nmap Analysis
 
-> **Intelligent Network Intelligence** — Scan networks with Nmap, analyze with AI, generate professional security reports in seconds.
-
----
-
-## 🚀 What is Automap?
-
-Automap is a **next-generation network security scanner** that combines the power of Nmap with AI-driven analysis. Instead of raw data dumps, you get:
-
-- ✅ Automated network scanning
-- ✅ Intelligent device discovery (IPs, MACs, hostnames, OS detection)
-- ✅ Real-time AI security analysis via Ollama
-- ✅ **Professional PDF reports** with visual hierarchy
-- ✅ Automatic highlights of security risks
-- ✅ Service detection and port analysis
-
-**In 30 seconds, go from:** Network → Scan → Analysis → Professional Report
+Turn raw Nmap scans into **clear, structured intelligence** using AI.
 
 ---
 
+## 🚀 Features
 
-## 💻 Installation
+* 🔍 Nmap scanning
+* 🧠 AI analysis (Ollama)
+* 📄 PDF report generation
+* ⚡ Fast CLI workflow
 
-### Requirements
-- Python 3.8+
-- Nmap installed
-- Ollama server (local or remote)
-- Linux/Unix (tested on Ubuntu, RHEL)
+---
 
-### Quick Start
+## 🛠️ Setup
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/automap.git
-cd automap
-
-# Install dependencies
+git clone https://github.com/Dhruv-Creator-De-Pal/Automap.git
+cd Automap
 pip install -r requirements.txt
-
-# Run Automap
-sudo python main.py
+sudo apt install nmap
 ```
 
-### requirements.txt
-```
-requests==2.31.0
-fpdf2==2.7.0
-apscheduler==3.10.4
-```
-
----
-
-## 🚀 Usage
-
-### Basic Scan
+Install Ollama → https://ollama.com
+Run model:
 
 ```bash
-$ sudo python main.py
----
-
-## 🔐 Security Notes
-
-- Always run with `sudo` for root-level network access
-- Ollama should be on a trusted network
-- Report files contain sensitive network data — keep secure
-
----
-
-## 🤝 Upcomeing update:
-
-- [ ] Real-time scanning updates
-- [ ] Slack/Discord notifications
-- [ ] Database integration
-
-
-
-## ⭐ Show Your Support
-
-If Automap helped you, consider:
-- ⭐ **Star this repo** on GitHub
-- 🔄 **Share** with your network
-- 📧 **Send feedback** or suggestions
-- 🐛 **Report issues** you find
-
----
-
-## 📞 Contact & Support
-
-- **Issues**: GitHub Issues
-- **Discussions**: GitHub Discussions
-
----
-
-## 🎯 Roadmap
-
-- [ ] v2.1: Scheduled automated scans
-- [ ] v2.2: Multi-target comparison
-- [ ] v2.3: Custom alert system
-
----
-
-**Made with ❤️ for network security professionals**
-
-
-
-
-
-
-
-```
-```
-   _         _                         
-  / \   _   _| |_ ___  _ __ ___   __ _ _ __
- / _ \ | | | | __/ _ \| '_ ` _ \ / _` | '_ \
-/ ___ \| |_| | || (_) | | | | | | (_| | |_) |
-/_/   \_\\__,_|\__\___/|_| |_| |_|\__,_| .__/
-                                       |_|
-
-Your Network. Secured. Analyzed. Reported.
-
+ollama run llama3
 ```
 
+---
 
+## ▶️ Usage
 
+```bash
+python main.py
+```
 
+Enter:
+
+* Target IP
+* Ollama URL (e.g. http://localhost:11434/)
+* Model name (e.g. llama3)
+
+---
+
+## 📸 Demo
+
+*Add screenshots / GIF here*
+
+---
+
+## 📦 Output
+
+* Open ports
+* Services
+* AI risk analysis
+* Recommendations
+
+---
+
+## 🧭 Roadmap
+
+* Web UI
+* Multi-target scan
+* API
+
+---
+
+## ⭐ Support
+
+Star the repo ⭐
+100⭐ → new features
+200⭐ → UI release
+
+---
+
+## 📜 License
+
+MIT
