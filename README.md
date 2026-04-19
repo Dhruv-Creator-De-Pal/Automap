@@ -126,6 +126,12 @@ If Automap helped you, consider:
 
 **Made with ❤️ for network security professionals**
 
+
+
+
+
+
+
 ```
    _         _                         
   / \   _   _| |_ ___  _ __ ___   __ _ _ __
@@ -136,3 +142,7 @@ If Automap helped you, consider:
 
 Your Network. Secured. Analyzed. Reported.
 ```
+
+
+
+
